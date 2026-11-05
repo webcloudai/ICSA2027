@@ -1,0 +1,18 @@
+{
+  "traceId": "64bce972bfdd4243aee569849c9950ab",
+  "spanId": "ec743ac005e2431cbf765c5c585f48b3",
+  "parentSpanId": "13253e6325844ce4a792ae9ce44b2715",
+  "name": "input_guardrails",
+  "kind": "WORKFLOW_TRACE",
+  "startTimeUnixNano": "1793419450516892000",
+  "endTimeUnixNano": "1793419451499086000",
+  "status": {
+    "code": "COMPLETED"
+  },
+  "attribites": {
+    "evidence.invocation_id": "64bce972bfdd4243aee569849c9950ab",
+    "evidence.node_id": "input_guardrails",
+    "evidence.activation_id": "24ef49b2-35fa-4a22-92ca-7af1bc8a4a47"
+  },
+  "links": null
+}

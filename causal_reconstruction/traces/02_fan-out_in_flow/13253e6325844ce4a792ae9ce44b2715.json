@@ -1,0 +1,15 @@
+{
+  "traceId": "64bce972bfdd4243aee569849c9950ab",
+  "spanId": "13253e6325844ce4a792ae9ce44b2715",
+  "parentSpanId": "848a204f8efe4fd6a3fc456f03a9c98b",
+  "name": "Agent_Router_Workflow",
+  "kind": "AGENT_WORKFLOW",
+  "startTimeUnixNano": "1793419449417504000",
+  "endTimeUnixNano": "1793419454849368000",
+  "status": {
+    "code": [
+      "OK"
+    ]
+  },
+  "links": null
+}

@@ -1,0 +1,20 @@
+{
+  "traceId": "16460077d41246bb913e0d26cdbe4fa3",
+  "spanId": "6045b2750a594df1b77a33cb8561072e",
+  "parentSpanId": "fc5c1bfcfaad498f8a301f1b13eee9cc",
+  "name": "Agent_Router_Workflow",
+  "kind": "AGENT_WORKFLOW",
+  "startTimeUnixNano": "1793756556771020000",
+  "endTimeUnixNano": "1793756561735515000",
+  "status": {
+    "code": [
+      "OK"
+    ]
+  },
+  "attributes": {
+    "evidence.invocation_id": "16460077d41246bb913e0d26cdbe4fa3",
+    "evidence.node_id": "AgentRouter",
+    "evidence.activation_id": "854b7fe06a0d4b1c904fe0ea902df3e5"
+  },
+  "links": null
+}

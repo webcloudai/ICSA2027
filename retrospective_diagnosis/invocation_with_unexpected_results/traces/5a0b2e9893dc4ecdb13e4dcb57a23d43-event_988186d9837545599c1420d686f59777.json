@@ -1,0 +1,15 @@
+{
+  "event_id": "988186d9837545599c1420d686f59777",
+  "name": "log",
+  "timestamp": "2026-11-04T01:33:52.360002+00:00",
+  "trace_id": "4e8fec7f42144838857ddcdb1c7a9f8a",
+  "span_id": "5a0b2e9893dc4ecdb13e4dcb57a23d43",
+  "attributes": {
+    "log.severity": "INFO",
+    "log.message": "0 are scheduled for execution",
+    "logger.name": "examples.multi_agent_example.Agent_Router.Agent_Router",
+    "invocation_id": "4e8fec7f42144838857ddcdb1c7a9f8a",
+    "node_id": "execute_actions",
+    "activation_id": "84e35708-67fc-4174-a775-29b2a302cb8a"
+  }
+}

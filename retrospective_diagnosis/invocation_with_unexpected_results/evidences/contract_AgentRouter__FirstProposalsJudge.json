@@ -1,0 +1,67 @@
+{
+  "evidence.invocation_id": "4e8fec7f42144838857ddcdb1c7a9f8a",
+  "evidence.node_id": "AgentRouter",
+  "evidence.activation_id": "794b50c76b0e4d59a01c62f1f7eb85cb",
+  "node_id": "selected_proposals_judge",
+  "contract": {
+    "name": "FirstProposalsJudge",
+    "input": {
+      "name": "ProposalsJudgeInputBase",
+      "version": "sha256:d09c12c43c18a7dbb8b61c34ff2c44c75b7c22fcdd6ccf4a77063e06e5a597bf"
+    },
+    "output": {
+      "name": "ProposalsJudgeOutputBase",
+      "version": "sha256:2de650f3b5343fb6791eeb5f848eb206371599c8dfc07e65a27257101f579711"
+    },
+    "responsibilities": {
+      "model": {
+        "name": "ProposalsJudgeResponsibilitiesBase",
+        "version": "sha256:53437dc400726407ed84fdd541f90db917109bb9a239735e87aac5f94892452b"
+      },
+      "value": {
+        "items": [
+          {
+            "id": "sdk.authorization.correctness",
+            "description": "Correctness of authorization decisions for declared policy.",
+            "version": "sha256:bb04a373674d2e0c070c26b77e94cf0af98cc1e820ea075c567a7331e1690de5"
+          }
+        ]
+      }
+    },
+    "bounds": {
+      "model": {
+        "name": "ProposalsJudgeBoundsBase",
+        "version": "sha256:c7af3baf52deaaededb254707e0d6993ea783f3b2b1cd5fe30dcb5084f420524"
+      },
+      "value": {
+        "max_selected_actions": {
+          "default": 1,
+          "min": 0,
+          "max": null,
+          "allow_override": true
+        }
+      }
+    },
+    "input_projection": {
+      "version": "sha256:ff1ce663b60a575604bb2bccded2cb2398a6805fb10fd41bacd5829f4e65ceb3",
+      "qualified_name": "sdk.agent_common_components.judges.ProposalsJudgeArtifacts:ProposalsJudgeArtifacts.project_input"
+    },
+    "bounds_projection": {
+      "version": "sha256:17e804ffa2dd46ff21be3232170364645613fcfb1dfedcb6b9f5906b3591bbb1",
+      "qualified_name": "sdk.agent_common_components.judges.ProposalsJudgeArtifacts:ProposalsJudgeArtifacts.project_bounds"
+    },
+    "logic": {
+      "version": "sha256:539d0653d286c0402dd2c8512d896c4187a630b507c54efa9a887fd6864a575a",
+      "qualified_name": "examples.multi_agent_example.Agent_Router.ActionsJudge:FirstProposalsJudgeArtifacts.logic"
+    },
+    "output_projection": {
+      "version": "sha256:90085bb642ba6e1b05e1ab0343989248f4d44d33f53cb884b49dd085e71d484e",
+      "qualified_name": "sdk.agent_common_components.judges.ProposalsJudgeArtifacts:ProposalsJudgeArtifacts.project_output"
+    },
+    "operational_resources_projection": {
+      "version": "sha256:025fcabd7fefb5a1681daf4765aba8ce50db242de85e0a1c56a375a91551df09",
+      "qualified_name": "sdk.agent_common_components.judges.ProposalsJudgeArtifacts:ProposalsJudgeArtifacts.provide_resources"
+    },
+    "version": "sha256:1ce6394da327d14d90aa4cbaa35c15b837e3cbddd1de6f9dd8bb9c9f703f95cf"
+  }
+}

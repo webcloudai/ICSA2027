@@ -1,0 +1,23 @@
+{
+  "traceId": "3d16e6b4a1b54b788ebc0b0d8f645266",
+  "spanId": "04235aaeb5874be3bc14cd94e9f95bfb",
+  "parentSpanId": "59b69d404fe2429ca276fd96a264d74c",
+  "name": "collect_actions",
+  "kind": "WORKFLOW_TRACE",
+  "startTimeUnixNano": "1793418633836658000",
+  "endTimeUnixNano": "1793418634682866000",
+  "status": {
+    "code": "COMPLETED"
+  },
+  "attribites": {
+    "evidence.invocation_id": "3d16e6b4a1b54b788ebc0b0d8f645266",
+    "evidence.node_id": "collect_actions",
+    "evidence.activation_id": "13913e42-579a-4e34-8d41-9bf51a75d137"
+  },
+  "links": [
+    {
+      "activation_id": "9c11ba5d-24d8-42d5-b41f-2b5636aaf028",
+      "node_id": "input_guardrails"
+    }
+  ]
+}

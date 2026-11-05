@@ -1,0 +1,151 @@
+{
+  "evidence.invocation_id": "219d98b6f68542d58e6c5a692e4f93cf",
+  "evidence.node_id": "proposal_selector",
+  "evidence.activation_id": "8cd22d95-1d2c-412f-aa75-50067e79106c",
+  "contract_version": "sha256:976cef0ab2b3b33472c35c052afcc00a6a45fc4660b35618fb401872c0076621",
+  "contract": null,
+  "invocation_id": "219d98b6f68542d58e6c5a692e4f93cf",
+  "node_id": "proposal_selector",
+  "activation_id": "8cd22d95-1d2c-412f-aa75-50067e79106c",
+  "activation_index": null,
+  "attempt_index": 0,
+  "retry_of": null,
+  "causal_predecessors": [
+    {
+      "invocation_id": "219d98b6f68542d58e6c5a692e4f93cf",
+      "activation_id": "cb010341-43f6-41e5-a007-8fda3422a6f1",
+      "node_id": "audit_actions"
+    }
+  ],
+  "stage": "output_projection",
+  "input": {
+    "feasible_actions": [
+      {
+        "id": "REJECT",
+        "name": "Reject request",
+        "description": "Use this action when human request cannot be properly answered",
+        "kind": "Action",
+        "version": "sha256:7ef30422093e88e536d578d54e8b5b5619d207bc05f0e048b958b4ea84708056"
+      },
+      {
+        "id": "Agent_Spec001",
+        "name": "Invoke Agent_Spec001",
+        "description": "Agent_Spec001 can answer questions related to current house status as it can collect data from temperature and humidity sensors across house.",
+        "kind": "Action",
+        "version": "sha256:6d707caf5bf74e2c7382a007a745970655d3c896c95e43a76ecfb7904fcc3b78"
+      },
+      {
+        "id": "CANNED",
+        "name": "This agent can help you to optimize your house energy consumption. You can ask questions about current house status and recommendations to decrease energy consumption.",
+        "description": "Answer user request using procreated response with basic information of agent features",
+        "kind": "Action",
+        "version": "sha256:734d88da1ec6a4e4a8a6e8daadb9652f82ff878f19af88850de6c476d34b9744"
+      },
+      {
+        "id": "REJECT",
+        "name": "Reject request",
+        "description": "Use this action when human request cannot be properly answered",
+        "kind": "Action",
+        "version": "sha256:7ef30422093e88e536d578d54e8b5b5619d207bc05f0e048b958b4ea84708056"
+      },
+      {
+        "id": "Agent_Spec001",
+        "name": "Invoke Agent_Spec001",
+        "description": "Agent_Spec001 can answer questions related to current house status as it can collect data from temperature and humidity sensors across house.",
+        "kind": "Action",
+        "version": "sha256:6d707caf5bf74e2c7382a007a745970655d3c896c95e43a76ecfb7904fcc3b78"
+      },
+      {
+        "id": "CANNED",
+        "name": "This agent can help you to optimize your house energy consumption. You can ask questions about current house status and recommendations to decrease energy consumption.",
+        "description": "Answer user request using procreated response with basic information of agent features",
+        "kind": "Action",
+        "version": "sha256:734d88da1ec6a4e4a8a6e8daadb9652f82ff878f19af88850de6c476d34b9744"
+      },
+      {
+        "id": "REJECT",
+        "name": "Reject request",
+        "description": "Use this action when human request cannot be properly answered",
+        "kind": "Action",
+        "version": "sha256:7ef30422093e88e536d578d54e8b5b5619d207bc05f0e048b958b4ea84708056"
+      },
+      {
+        "id": "Agent_Spec001",
+        "name": "Invoke Agent_Spec001",
+        "description": "Agent_Spec001 can answer questions related to current house status as it can collect data from temperature and humidity sensors across house.",
+        "kind": "Action",
+        "version": "sha256:6d707caf5bf74e2c7382a007a745970655d3c896c95e43a76ecfb7904fcc3b78"
+      },
+      {
+        "id": "CANNED",
+        "name": "This agent can help you to optimize your house energy consumption. You can ask questions about current house status and recommendations to decrease energy consumption.",
+        "description": "Answer user request using procreated response with basic information of agent features",
+        "kind": "Action",
+        "version": "sha256:734d88da1ec6a4e4a8a6e8daadb9652f82ff878f19af88850de6c476d34b9744"
+      },
+      {
+        "id": "REJECT",
+        "name": "Reject request",
+        "description": "Use this action when human request cannot be properly answered",
+        "kind": "Action",
+        "version": "sha256:7ef30422093e88e536d578d54e8b5b5619d207bc05f0e048b958b4ea84708056"
+      },
+      {
+        "id": "Agent_Spec001",
+        "name": "Invoke Agent_Spec001",
+        "description": "Agent_Spec001 can answer questions related to current house status as it can collect data from temperature and humidity sensors across house.",
+        "kind": "Action",
+        "version": "sha256:6d707caf5bf74e2c7382a007a745970655d3c896c95e43a76ecfb7904fcc3b78"
+      },
+      {
+        "id": "CANNED",
+        "name": "This agent can help you to optimize your house energy consumption. You can ask questions about current house status and recommendations to decrease energy consumption.",
+        "description": "Answer user request using procreated response with basic information of agent features",
+        "kind": "Action",
+        "version": "sha256:734d88da1ec6a4e4a8a6e8daadb9652f82ff878f19af88850de6c476d34b9744"
+      }
+    ],
+    "serving_human_message": {
+      "content": "How can I improve energy consumption",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": "a7fb099c-bf86-4453-8909-c454eb1a24cc"
+    }
+  },
+  "bounds": {
+    "values": {
+      "max_proposals": 2,
+      "llm_config": {
+        "model": "us.anthropic.claude-sonnet-4-6",
+        "max_tokens": 2000
+      },
+      "selection_prompt": {
+        "content": "You are smart home assistant helping user to manage the house.You should review available actions and choose those can serve the user best.",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "system",
+        "name": null,
+        "id": null
+      }
+    }
+  },
+  "operational": {
+    "resource_set": "sdk.agent_common_components.proposal_providers.interfaces.ProposalProviderOperationalResourcesBase",
+    "resources": {
+      "logger": {
+        "type": "sdk.local_agent_runtime.helpers.OTelLogger"
+      }
+    }
+  },
+  "output": {
+    "proposals": []
+  },
+  "state_update": {
+    "proposals": []
+  },
+  "missing_responsibility_dependencies": [],
+  "failure_type": null,
+  "failure_message": null
+}

@@ -1,0 +1,15 @@
+{
+  "event_id": "0ecc9a2b99a14c8f91041616750417f1",
+  "name": "log",
+  "timestamp": "2026-11-03T03:58:41.611973+00:00",
+  "trace_id": "dc127dca921c45b1800658e3bc6c07b4",
+  "span_id": "4e9a73618a194dd780ed57bdf94b0081",
+  "attributes": {
+    "log.severity": "INFO",
+    "log.message": "Authorized 0 proposals when limit was 1",
+    "logger.name": "examples.multi_agent_example.Agent_Router.Agent_Router",
+    "invocation_id": "dc127dca921c45b1800658e3bc6c07b4",
+    "activation_id": "fa46693f-be14-4de6-9b0d-5ae1556ffe1f",
+    "node_id": "selected_proposals_judge"
+  }
+}

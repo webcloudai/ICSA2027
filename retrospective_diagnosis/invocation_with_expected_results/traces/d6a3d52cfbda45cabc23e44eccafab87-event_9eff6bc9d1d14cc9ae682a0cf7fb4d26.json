@@ -1,0 +1,15 @@
+{
+  "event_id": "9eff6bc9d1d14cc9ae682a0cf7fb4d26",
+  "name": "log",
+  "timestamp": "2026-11-04T01:42:40.304917+00:00",
+  "trace_id": "16460077d41246bb913e0d26cdbe4fa3",
+  "span_id": "d6a3d52cfbda45cabc23e44eccafab87",
+  "attributes": {
+    "log.severity": "INFO",
+    "log.message": "Collected 3 actions",
+    "logger.name": "examples.multi_agent_example.Agent_Router.Agent_Router",
+    "invocation_id": "16460077d41246bb913e0d26cdbe4fa3",
+    "node_id": "audit_actions",
+    "activation_id": "5ca67667-e399-40bc-bd76-77705cc67abb"
+  }
+}

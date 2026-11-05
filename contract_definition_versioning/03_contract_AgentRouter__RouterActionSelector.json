@@ -1,0 +1,84 @@
+{
+  "evidence.invocation_id": "219d98b6f68542d58e6c5a692e4f93cf",
+  "evidence.node_id": "AgentRouter",
+  "evidence.activation_id": "b89efae1e63f4154b00c49528e4bbc91",
+  "node_id": "proposal_selector",
+  "contract": {
+    "name": "RouterActionSelector",
+    "input": {
+      "name": "ActionSelectorInput",
+      "version": "sha256:08579302987af7ab9cad1b453b908f1f7c26e91674cef416bd44facb131dd479"
+    },
+    "output": {
+      "name": "ProposalProviderOutputBase",
+      "version": "sha256:d09c12c43c18a7dbb8b61c34ff2c44c75b7c22fcdd6ccf4a77063e06e5a597bf"
+    },
+    "responsibilities": {
+      "model": {
+        "name": "ProposalProviderResponsibilitiesBase",
+        "version": "sha256:d41da4390abdc0ca24d485100cb7a5ebd86d61b6cddf17155b846783ea6e362b"
+      },
+      "value": {
+        "items": [
+          {
+            "id": "sdk.selection.quality",
+            "description": "Quality of selecting from component-visible alternatives.",
+            "version": "sha256:5ef3da40b2bbe6539aef395945ed09a38c20a1f48c385d06ccd51fa7624a90c7"
+          }
+        ]
+      }
+    },
+    "bounds": {
+      "model": {
+        "name": "ActionSelectorBounds",
+        "version": "sha256:9fd5627ff1a13177224df291a3fddeb6c252154dd80cd61cadeadd3db0f84f7a"
+      },
+      "value": {
+        "max_proposals": {
+          "default": 2,
+          "min": null,
+          "max": null,
+          "allow_override": false
+        },
+        "llm_config": {
+          "default": {
+            "model": "us.anthropic.claude-sonnet-4-6",
+            "max_tokens": 2000
+          },
+          "min": null,
+          "max": null,
+          "allow_override": false
+        },
+        "selection_prompt": {
+          "content": "You are smart home assistant helping user to manage the house.You should review available actions and choose those can serve the user best.",
+          "additional_kwargs": {},
+          "response_metadata": {},
+          "type": "system",
+          "name": null,
+          "id": null
+        }
+      }
+    },
+    "input_projection": {
+      "version": "sha256:312ba49d5531cf291a4df9e0943e4c526261ee6c4452cdda2551ac1e528fb3b6",
+      "qualified_name": "examples.multi_agent_example.Agent_Router.ActionsSelector:ActionSelectorArtifacts.project_input"
+    },
+    "bounds_projection": {
+      "version": "sha256:e6fedede70d9497d8b5b08fa4dfc7fa6fa328ed5ea68d52c6d835b9aa7138979",
+      "qualified_name": "sdk.agent_common_components.proposal_providers.ProposalProviderArtifacts:ProposalProviderArtifacts.project_bounds"
+    },
+    "logic": {
+      "version": "sha256:ad19ccc6e7597dd727688e926a584ce636f5b9ceb5647760df10ca591337264e",
+      "qualified_name": "examples.multi_agent_example.Agent_Router.ActionsSelector:ActionSelectorArtifacts.logic"
+    },
+    "output_projection": {
+      "version": "sha256:4cde425d9a8792f71f1893413fe8d6df329d9e91ea9367c3c9c6467c3b863435",
+      "qualified_name": "sdk.agent_common_components.proposal_providers.ProposalProviderArtifacts:ProposalProviderArtifacts.project_output"
+    },
+    "operational_resources_projection": {
+      "version": "sha256:300230e51c12ccafb84d9b6f71dfb84dba253db3eac8c10d2bf5b53f79580b40",
+      "qualified_name": "sdk.agent_common_components.proposal_providers.ProposalProviderArtifacts:ProposalProviderArtifacts.provide_resources"
+    },
+    "version": "sha256:976cef0ab2b3b33472c35c052afcc00a6a45fc4660b35618fb401872c0076621"
+  }
+}

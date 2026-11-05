@@ -1,0 +1,80 @@
+{
+  "evidence.invocation_id": "16460077d41246bb913e0d26cdbe4fa3",
+  "evidence.node_id": "selected_proposals_judge",
+  "evidence.activation_id": "aa85fc2d-a3f5-43b6-8a10-3c7df1a90d00",
+  "contract_version": "sha256:1ce6394da327d14d90aa4cbaa35c15b837e3cbddd1de6f9dd8bb9c9f703f95cf",
+  "contract": null,
+  "invocation_id": "16460077d41246bb913e0d26cdbe4fa3",
+  "node_id": "selected_proposals_judge",
+  "activation_id": "aa85fc2d-a3f5-43b6-8a10-3c7df1a90d00",
+  "activation_index": null,
+  "attempt_index": 0,
+  "retry_of": null,
+  "causal_predecessors": [
+    {
+      "invocation_id": "16460077d41246bb913e0d26cdbe4fa3",
+      "activation_id": "45f92d52-85d6-4eff-90fd-27866feedf56",
+      "node_id": "proposal_selector"
+    }
+  ],
+  "stage": "output_projection",
+  "input": {
+    "proposals": [
+      {
+        "proposal_id": "pCANNED",
+        "action_name": "This agent can help you to optimize your house energy consumption. You can ask questions about current house status and recommendations to decrease energy consumption.",
+        "action_id": "CANNED",
+        "metrics": [
+          {
+            "metric_ref": {
+              "id": "sdk.agent_component.estimated_latency_ms",
+              "version": "sha256:9d55bcb03df4cd54e2cf6e8155cb4f5f26f2d6ec3008d2fe0bb43bce1e799723"
+            },
+            "value": 0.0,
+            "success_criterion_ref": null
+          },
+          {
+            "metric_ref": {
+              "id": "sdk.agent_component.success_probability",
+              "version": "sha256:84089de0562293b7d5843e2dc77ba048f332ff90773a01b1379e68fdac19687c"
+            },
+            "value": 0.3,
+            "success_criterion_ref": null
+          }
+        ]
+      }
+    ]
+  },
+  "bounds": {
+    "values": {
+      "max_selected_actions": 1
+    }
+  },
+  "operational": {
+    "resource_set": "sdk.agent_common_components.judges.interfaces.ProposalsJudgeOperationalResourcesBase",
+    "resources": {
+      "logger": {
+        "type": "sdk.local_agent_runtime.helpers.OTelLogger"
+      }
+    }
+  },
+  "output": {
+    "decision": {
+      "proposal_ids": [
+        "pCANNED"
+      ],
+      "execution_mode": "parallel"
+    }
+  },
+  "state_update": {
+    "decision": {
+      "proposal_ids": [
+        "pCANNED"
+      ],
+      "execution_mode": "parallel"
+    }
+  },
+  "missing_responsibility_dependencies": [],
+  "failure_type": null,
+  "failure_message": null
+}

@@ -1,0 +1,66 @@
+{
+  "evidence.invocation_id": "0d4809918ec44953abd91f50cff30fff",
+  "evidence.node_id": "selected_proposals_judge",
+  "evidence.activation_id": "978f718e-6525-4316-b564-59169f9062f4",
+  "contract_version": "sha256:f3d9ef53ba71c35173f667be47b07cedd89940a21c6ee281356f6edd56aae996",
+  "contract": null,
+  "invocation_id": "0d4809918ec44953abd91f50cff30fff",
+  "node_id": "selected_proposals_judge",
+  "activation_id": "978f718e-6525-4316-b564-59169f9062f4",
+  "activation_index": null,
+  "attempt_index": 0,
+  "retry_of": null,
+  "causal_predecessors": [
+    {
+      "invocation_id": "0d4809918ec44953abd91f50cff30fff",
+      "activation_id": "e5ad8283-7a97-4524-a18d-d5a381eec769",
+      "node_id": "proposal_selector"
+    }
+  ],
+  "stage": "logic",
+  "input": {
+    "proposals": [
+      {
+        "proposal_id": "pCANNED",
+        "action_name": "This agent can help you to optimize your house energy consumption. You can ask questions about current house status and recommendations to decrease energy consumption.",
+        "action_id": "CANNED",
+        "metrics": [
+          {
+            "metric_ref": {
+              "id": "sdk.agent_component.estimated_latency_ms",
+              "version": "sha256:9d55bcb03df4cd54e2cf6e8155cb4f5f26f2d6ec3008d2fe0bb43bce1e799723"
+            },
+            "value": 0.0,
+            "success_criterion_ref": null
+          },
+          {
+            "metric_ref": {
+              "id": "sdk.agent_component.success_probability",
+              "version": "sha256:84089de0562293b7d5843e2dc77ba048f332ff90773a01b1379e68fdac19687c"
+            },
+            "value": 0.3,
+            "success_criterion_ref": null
+          }
+        ]
+      }
+    ]
+  },
+  "bounds": {
+    "values": {
+      "max_selected_actions": 1
+    }
+  },
+  "operational": {
+    "resource_set": "sdk.agent_common_components.judges.interfaces.ProposalsJudgeOperationalResourcesBase",
+    "resources": {
+      "logger": {
+        "type": "sdk.local_agent_runtime.helpers.OTelLogger"
+      }
+    }
+  },
+  "output": null,
+  "state_update": null,
+  "missing_responsibility_dependencies": [],
+  "failure_type": "ComponentExecutionError",
+  "failure_message": "FAIL to execute component logic with controlled failure"
+}

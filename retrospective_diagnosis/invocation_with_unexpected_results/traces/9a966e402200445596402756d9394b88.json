@@ -1,0 +1,34 @@
+{
+  "traceId": "4e8fec7f42144838857ddcdb1c7a9f8a",
+  "spanId": "9a966e402200445596402756d9394b88",
+  "parentSpanId": "972a7bcfc44743ec91226f4a640545ef",
+  "name": "audit_actions",
+  "kind": "NODE_TRACE",
+  "startTimeUnixNano": "1793756030247308000",
+  "endTimeUnixNano": "1793756030885425000",
+  "status": {
+    "code": "COMPLETED"
+  },
+  "attribites": {
+    "evidence.invocation_id": "4e8fec7f42144838857ddcdb1c7a9f8a",
+    "evidence.node_id": "audit_actions",
+    "evidence.activation_id": "115d586e-117d-4a21-8bf0-e788ed110cca"
+  },
+  "links": [
+    {
+      "invocation_id": "4e8fec7f42144838857ddcdb1c7a9f8a",
+      "activation_id": "77df0c3e-d5e6-4568-899b-cc57ee48c293",
+      "node_id": "collect_actions_3"
+    },
+    {
+      "invocation_id": "4e8fec7f42144838857ddcdb1c7a9f8a",
+      "activation_id": "a5663729-75cf-4b3b-99bd-dffd29676620",
+      "node_id": "collect_actions_2"
+    },
+    {
+      "invocation_id": "4e8fec7f42144838857ddcdb1c7a9f8a",
+      "activation_id": "ea817dd5-0d24-47ed-9823-267ed4934019",
+      "node_id": "collect_actions"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "traceId": "4e8fec7f42144838857ddcdb1c7a9f8a",
+  "spanId": "baaa270b4053403c9fbca3725f59fa67",
+  "parentSpanId": "972a7bcfc44743ec91226f4a640545ef",
+  "name": "selected_proposals_judge",
+  "kind": "NODE_TRACE",
+  "startTimeUnixNano": "1793756031426714000",
+  "endTimeUnixNano": "1793756031961008000",
+  "status": {
+    "code": "COMPLETED"
+  },
+  "attribites": {
+    "evidence.invocation_id": "4e8fec7f42144838857ddcdb1c7a9f8a",
+    "evidence.node_id": "selected_proposals_judge",
+    "evidence.activation_id": "1ce22e5f-13b6-4eb7-b55d-1073ff7a44c3"
+  },
+  "links": [
+    {
+      "invocation_id": "4e8fec7f42144838857ddcdb1c7a9f8a",
+      "activation_id": "be6901b7-caee-4b4e-81cb-97281285e433",
+      "node_id": "proposal_selector"
+    }
+  ]
+}

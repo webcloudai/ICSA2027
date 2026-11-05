@@ -1,0 +1,15 @@
+{
+  "event_id": "3427a995066a4185b0101ca59f835b6a",
+  "name": "log",
+  "timestamp": "2026-11-04T01:42:41.732300+00:00",
+  "trace_id": "16460077d41246bb913e0d26cdbe4fa3",
+  "span_id": "9d8cbdee57c042baae9c64de1e056859",
+  "attributes": {
+    "log.severity": "INFO",
+    "log.message": "EXECUTE ACTION This agent can help you to optimize your house energy consumption. You can ask questions about current house status and recommendations to decrease energy consumption.",
+    "logger.name": "examples.multi_agent_example.Agent_Router.Agent_Router",
+    "invocation_id": "16460077d41246bb913e0d26cdbe4fa3",
+    "node_id": "execute_actions",
+    "activation_id": "cc3b2fa8-4d6a-4218-8eae-01c1eef9c6e4"
+  }
+}

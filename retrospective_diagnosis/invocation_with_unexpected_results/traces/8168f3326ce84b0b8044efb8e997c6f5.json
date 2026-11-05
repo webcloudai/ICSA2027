@@ -1,0 +1,18 @@
+{
+  "traceId": "4e8fec7f42144838857ddcdb1c7a9f8a",
+  "spanId": "8168f3326ce84b0b8044efb8e997c6f5",
+  "parentSpanId": "972a7bcfc44743ec91226f4a640545ef",
+  "name": "input_guardrails",
+  "kind": "NODE_TRACE",
+  "startTimeUnixNano": "1793756028144975000",
+  "endTimeUnixNano": "1793756028831338000",
+  "status": {
+    "code": "COMPLETED"
+  },
+  "attribites": {
+    "evidence.invocation_id": "4e8fec7f42144838857ddcdb1c7a9f8a",
+    "evidence.node_id": "input_guardrails",
+    "evidence.activation_id": "6d5c77ff-209c-44f3-86a4-a1752b5e5874"
+  },
+  "links": null
+}

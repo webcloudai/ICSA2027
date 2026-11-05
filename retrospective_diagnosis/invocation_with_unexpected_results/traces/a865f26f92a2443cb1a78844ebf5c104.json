@@ -1,0 +1,19 @@
+{
+  "traceId": "4e8fec7f42144838857ddcdb1c7a9f8a",
+  "spanId": "a865f26f92a2443cb1a78844ebf5c104",
+  "name": "Agent_Router_Runtime",
+  "kind": "AGENT_RUNTIME",
+  "startTimeUnixNano": "1793756027173008000",
+  "endTimeUnixNano": "1793756032363590000",
+  "status": {
+    "code": [
+      "OK"
+    ]
+  },
+  "links": null,
+  "attributes": {
+    "evidence.invocation_id": "4e8fec7f42144838857ddcdb1c7a9f8a",
+    "evidence.node_id": "runtime",
+    "evidence.activation_id": "none"
+  }
+}

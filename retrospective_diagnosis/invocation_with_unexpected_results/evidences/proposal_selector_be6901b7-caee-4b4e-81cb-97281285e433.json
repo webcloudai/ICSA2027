@@ -1,0 +1,88 @@
+{
+  "evidence.invocation_id": "4e8fec7f42144838857ddcdb1c7a9f8a",
+  "evidence.node_id": "proposal_selector",
+  "evidence.activation_id": "be6901b7-caee-4b4e-81cb-97281285e433",
+  "contract_version": "sha256:8981b35fa1324fa66c78ee5c6e7076e8f3cd00b57f754c6bfbb60b2f6dc92e6c",
+  "contract": null,
+  "invocation_id": "4e8fec7f42144838857ddcdb1c7a9f8a",
+  "node_id": "proposal_selector",
+  "activation_id": "be6901b7-caee-4b4e-81cb-97281285e433",
+  "activation_index": null,
+  "attempt_index": 0,
+  "retry_of": null,
+  "causal_predecessors": [
+    {
+      "invocation_id": "4e8fec7f42144838857ddcdb1c7a9f8a",
+      "activation_id": "115d586e-117d-4a21-8bf0-e788ed110cca",
+      "node_id": "audit_actions"
+    }
+  ],
+  "stage": "output_projection",
+  "input": {
+    "feasible_actions": [
+      {
+        "id": "REJECT",
+        "name": "Reject request",
+        "description": "Use this action when human request cannot be properly answered",
+        "kind": "Action",
+        "version": "sha256:7ef30422093e88e536d578d54e8b5b5619d207bc05f0e048b958b4ea84708056"
+      },
+      {
+        "id": "Agent_Spec001",
+        "name": "Invoke Agent_Spec001",
+        "description": "Agent_Spec001 can answer questions related to current house status as it can collect data from temperature and humidity sensors across house.",
+        "kind": "Action",
+        "version": "sha256:6d707caf5bf74e2c7382a007a745970655d3c896c95e43a76ecfb7904fcc3b78"
+      },
+      {
+        "id": "CANNED",
+        "name": "This agent can help you to optimize your house energy consumption. You can ask questions about current house status and recommendations to decrease energy consumption.",
+        "description": "Answer user request using procreated response with basic information of agent features",
+        "kind": "Action",
+        "version": "sha256:734d88da1ec6a4e4a8a6e8daadb9652f82ff878f19af88850de6c476d34b9744"
+      }
+    ],
+    "serving_human_message": {
+      "content": "how",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": "8900454c-f29e-4122-831d-a59790b08542"
+    }
+  },
+  "bounds": {
+    "values": {
+      "max_proposals": 2,
+      "llm_config": {
+        "model": "us.anthropic.claude-sonnet-4-6",
+        "max_tokens": 2000
+      },
+      "selection_prompt": {
+        "content": "You are smart home assistant helping user to manage the house.You should review available actions and choose those can serve the user best.",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "system",
+        "name": null,
+        "id": null
+      }
+    }
+  },
+  "operational": {
+    "resource_set": "sdk.agent_common_components.proposal_providers.interfaces.ProposalProviderOperationalResourcesBase",
+    "resources": {
+      "logger": {
+        "type": "sdk.local_agent_runtime.helpers.OTelLogger"
+      }
+    }
+  },
+  "output": {
+    "proposals": []
+  },
+  "state_update": {
+    "proposals": []
+  },
+  "missing_responsibility_dependencies": [],
+  "failure_type": null,
+  "failure_message": null
+}

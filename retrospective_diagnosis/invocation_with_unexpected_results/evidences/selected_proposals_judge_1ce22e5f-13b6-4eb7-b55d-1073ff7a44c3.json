@@ -1,0 +1,56 @@
+{
+  "evidence.invocation_id": "4e8fec7f42144838857ddcdb1c7a9f8a",
+  "evidence.node_id": "selected_proposals_judge",
+  "evidence.activation_id": "1ce22e5f-13b6-4eb7-b55d-1073ff7a44c3",
+  "contract_version": "sha256:1ce6394da327d14d90aa4cbaa35c15b837e3cbddd1de6f9dd8bb9c9f703f95cf",
+  "contract": null,
+  "invocation_id": "4e8fec7f42144838857ddcdb1c7a9f8a",
+  "node_id": "selected_proposals_judge",
+  "activation_id": "1ce22e5f-13b6-4eb7-b55d-1073ff7a44c3",
+  "activation_index": null,
+  "attempt_index": 0,
+  "retry_of": null,
+  "causal_predecessors": [
+    {
+      "invocation_id": "4e8fec7f42144838857ddcdb1c7a9f8a",
+      "activation_id": "be6901b7-caee-4b4e-81cb-97281285e433",
+      "node_id": "proposal_selector"
+    }
+  ],
+  "stage": "output_projection",
+  "input": {
+    "proposals": []
+  },
+  "bounds": {
+    "values": {
+      "max_selected_actions": 1
+    }
+  },
+  "operational": {
+    "resource_set": "sdk.agent_common_components.judges.interfaces.ProposalsJudgeOperationalResourcesBase",
+    "resources": {
+      "logger": {
+        "type": "sdk.local_agent_runtime.helpers.OTelLogger"
+      }
+    }
+  },
+  "output": {
+    "decision": {
+      "proposal_ids": [
+        "pNO_PROPOSALS"
+      ],
+      "execution_mode": "parallel"
+    }
+  },
+  "state_update": {
+    "decision": {
+      "proposal_ids": [
+        "pNO_PROPOSALS"
+      ],
+      "execution_mode": "parallel"
+    }
+  },
+  "missing_responsibility_dependencies": [],
+  "failure_type": null,
+  "failure_message": null
+}

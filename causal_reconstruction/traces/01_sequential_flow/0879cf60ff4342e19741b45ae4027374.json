@@ -1,0 +1,23 @@
+{
+  "traceId": "3d16e6b4a1b54b788ebc0b0d8f645266",
+  "spanId": "0879cf60ff4342e19741b45ae4027374",
+  "parentSpanId": "59b69d404fe2429ca276fd96a264d74c",
+  "name": "proposals_judge",
+  "kind": "WORKFLOW_TRACE",
+  "startTimeUnixNano": "1793418635298069000",
+  "endTimeUnixNano": "1793418635625346000",
+  "status": {
+    "code": "COMPLETED"
+  },
+  "attribites": {
+    "evidence.invocation_id": "3d16e6b4a1b54b788ebc0b0d8f645266",
+    "evidence.node_id": "proposals_judge",
+    "evidence.activation_id": "690aaefe-8f7d-41c6-a900-8311e5215e7a"
+  },
+  "links": [
+    {
+      "activation_id": "1316ed10-3bea-4e38-9563-26e29b0ba2a8",
+      "node_id": "proposal_generator"
+    }
+  ]
+}

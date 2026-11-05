@@ -1,0 +1,24 @@
+{
+  "traceId": "dc127dca921c45b1800658e3bc6c07b4",
+  "spanId": "8b080ab3a22c484090a3e93e734ceee0",
+  "parentSpanId": "7da2d8cab7324f5595debf8807652016",
+  "name": "proposal_selector",
+  "kind": "NODE_TRACE",
+  "startTimeUnixNano": "1793678320440974000",
+  "endTimeUnixNano": "1793678320905890000",
+  "status": {
+    "code": "COMPLETED"
+  },
+  "attribites": {
+    "evidence.invocation_id": "dc127dca921c45b1800658e3bc6c07b4",
+    "evidence.node_id": "proposal_selector",
+    "evidence.activation_id": "a145cec1-3b6a-4005-9946-43485122a242"
+  },
+  "links": [
+    {
+      "invocation_id": "dc127dca921c45b1800658e3bc6c07b4",
+      "activation_id": "7c3bd77b-da28-4d36-9a80-3ad5e2a03ef8",
+      "node_id": "audit_actions"
+    }
+  ]
+}
